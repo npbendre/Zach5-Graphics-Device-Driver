@@ -1,0 +1,4 @@
+Device Driver for the PCI graphics card in linux 3.0.3, Provides two capabilities, 
+a) directly, through the FIFO facility, using memory-mapped registers, and
+b) indirectly, through DMA facility, using driver-allocated DMA buffers. 
+Includes DMA completion Interrupt handling and is SMP safe.
